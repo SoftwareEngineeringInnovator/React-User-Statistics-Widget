@@ -1,3 +1,6 @@
+// Import the users image from the assets folder.
+import usersIcon from '../../images/users-icon.png'
+
 // This component displays the user statistics table.
 export default function StatsTable() {
   return (
@@ -12,7 +15,7 @@ export default function StatsTable() {
       <tbody>
         <tr className="highlight-row" tabIndex="0">
           <td>
-            <img src="./images/users-icon.png" alt="Users" />
+            <img src={usersIcon} alt="Users" />
           </td>
           <td>Active Users</td>
           <td>1,234</td>
