@@ -8,7 +8,7 @@ export default function WidgetHeader() {
         className="btn-close"
         aria-label="Close widget"
       >
-        Click me!
+        ×
       </button>
     </header>
   )
