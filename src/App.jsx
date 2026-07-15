@@ -1,20 +1,8 @@
-// Import the WidgetHeader component from the components folder.
-import WidgetHeader from './components/WidgetHeader.jsx'
-import FilterForm from './components/FilterForm.jsx'
-import StatsTable from './components/StatsTable.jsx'
+// Import the complete DashboardWidget component.
+import DashboardWidget from './components/DashboardWidget.jsx'
 
 export default function App() {
   return (
-    <div>
-      <WidgetHeader />
-      <FilterForm />
-      <StatsTable />
-    </div>
+    <DashboardWidget />
   )
 }
-
-// export default function App() {
-//   return (
-//     <div>Hello World!</div>
-//   ) 
-// }
