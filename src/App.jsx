@@ -1,11 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+// Import the WidgetHeader component from the components folder.
+import WidgetHeader from './components/WidgetHeader.jsx'
 
 export default function App() {
   return (
-    <div>Hello World!</div>
-  ) 
+    <div>
+      <WidgetHeader />
+    </div>
+  )
 }
+
+// export default function App() {
+//   return (
+//     <div>Hello World!</div>
+//   ) 
+// }
